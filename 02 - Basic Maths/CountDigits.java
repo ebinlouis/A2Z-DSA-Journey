@@ -11,5 +11,6 @@ class CountDigits{
             count++;
         }
         System.out.println("Total digits: " + count);
+        sc.close();
     }
 }
