@@ -7,18 +7,21 @@ class PrintDivision{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
-        ArrayList<Integer> ls = new ArrayList<>();
-        for (int i = 1; i <= Math.sqrt(n); i++){
+        ArrayList<Integer> small = new ArrayList<>();
+        ArrayList<Integer> large = new ArrayList<>();
+        for (int i = 1; i * i<= n; i++){
             if (n % i == 0){
-                ls.add(i);
-                if (n / i == i)
-                    continue;
-                ls.add(n / i);
+                small.add(i);
+                if (n / i != i)
+                    large.add(n / i);
             }
         }
-        Collections.sort(ls);
-        for (int item: ls){
+        for (int item: small){
             System.out.print(item + " ");
+        }
+
+        for (int i = large.size() - 1; i >= 0; i--){
+            System.out.print(large.get(i) + " ");
         }
         sc.close();
     }
