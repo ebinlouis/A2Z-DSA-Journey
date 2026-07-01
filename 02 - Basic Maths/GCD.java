@@ -24,6 +24,7 @@ class GCD{
         }
         if ( a == 0 ) System.out.println(b);
         else System.out.println(a);
+        
         sc.close();
     }
 }
