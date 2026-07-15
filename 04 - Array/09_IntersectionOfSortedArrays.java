@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class IntersectionOfSortedArrays {
+class IntersectionOfSortedArrays {
 
     static ArrayList<Integer> intersection(int[] arr1, int[] arr2) {
 

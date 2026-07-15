@@ -1,4 +1,4 @@
-public class CheckArraySorted {
+class CheckArraySorted {
 
     static boolean isSorted(int[] nums) {
 

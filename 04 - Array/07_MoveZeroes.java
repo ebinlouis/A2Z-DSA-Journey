@@ -1,4 +1,4 @@
-public class MoveZeroes {
+class MoveZeroes {
 
     static int[] moveZeroes(int[] nums) {
 

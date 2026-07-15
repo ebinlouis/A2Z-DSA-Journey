@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class UnionOfSortedArrays {
+class UnionOfSortedArrays {
 
     static ArrayList<Integer> union(int[] arr1, int[] arr2) {
 

@@ -1,4 +1,4 @@
-public class SecondLargestElement {
+class SecondLargestElement {
 
     static int secondLargestElement(int[] nums) {
         int largest = nums[0];

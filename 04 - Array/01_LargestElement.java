@@ -1,4 +1,4 @@
-public class LargestElement {
+class LargestElement {
 
     static int largestElement(int[] nums) {
         int n = nums.length;

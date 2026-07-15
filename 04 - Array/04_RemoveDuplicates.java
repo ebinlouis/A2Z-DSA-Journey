@@ -1,4 +1,4 @@
-public class RemoveDuplicatesFromSortedArray {
+class RemoveDuplicatesFromSortedArray {
 
     static int removeDuplicates(int[] nums) {
         int i = 0;
